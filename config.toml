@@ -33,6 +33,11 @@ theme = "vanilla-bootstrap-hugo-theme"
     pre = "info"
     url = "https://github.com/laixintao/iredis/issues"
     weight = 3
+  [[menu.nav]]
+    name = "Pypi"
+    pre = "package"
+    url = "https://pypi.org/project/iredis/"
+    weight = 4
 
 [params]
   includeBootstrapJs = false
