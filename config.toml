@@ -1,4 +1,5 @@
 baseURL = "https://iredis.io/"
 languageCode = "en-us"
-title = "iredis - Interactive Redis: A Terminal Client for Redis with AutoCompletion and Syntax Highlighting."
+title = "iredis"
+description = "Interactive Redis: A Terminal Client for Redis with AutoCompletion and Syntax Highlighting."
 theme = "github-project-landing-page"
