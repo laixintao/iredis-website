@@ -1,7 +1,6 @@
 baseURL = "https://iredis.io/"
 languageCode = "en-us"
 title = "iredis"
-description = "Interactive Redis: A Terminal Client for Redis with AutoCompletion and Syntax Highlighting."
 theme = "vanilla-bootstrap-hugo-theme"
 
 # Uncomment below to enable syntax highlighting
@@ -40,6 +39,6 @@ theme = "vanilla-bootstrap-hugo-theme"
   showActiveNav = true
   containerMaxWidth = "700px"
   dateFormat = "Jan 2, 2006"
-  homeText = "Welcome to the Vanilla theme demo. Have a look around. Maybe even eat some ice cream."
+  homeText = "Interactive Redis: A Terminal Client for Redis with AutoCompletion and Syntax Highlighting."
   footerText = "Another software created by [laixintao](http://github.com/laixintao/)"
   hideFooter = false
