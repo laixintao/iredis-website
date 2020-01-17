@@ -6,5 +6,9 @@
 ## Develop
 
 ```
-$ hugo server -D
+$ cactus serve
 ```
+
+### Info
+
+- Bootstrap CDN: https://www.bootstrapcdn.com/
