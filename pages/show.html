@@ -1,5 +1,4 @@
-{% extends "base.html" %} {% block nav_show %} active {% endblock %} {% block
-body %}
+{% extends "base.html" %} {% block nav_show %} active {% endblock %} {% block body %}
 
 <div
   class="container main-page tab-pane border border-top-0"
@@ -12,6 +11,15 @@ body %}
   <p>
     <object
       data="{% static '/static/casts/features/keys_completion.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+  IRedis will make response more readable for you.
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/render.cast.svg' %}"
     ></object>
   </p>
 
@@ -61,6 +69,53 @@ body %}
   <p>
     <object
       data="{% static '/static/casts/features/command_validation.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+  Stored some json in redis? Now you can use you favorite shell tools to parse Redis
+  Response, IRedis will using pipe response to shell process.
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/pipeline.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+  You can also use HELP command to check the manual of Redis commands.
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/help.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+  Rainbow prompt! It's useless, yes, but cool.
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/rainbow.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+  IRedis support Redis commands including pubsub/monitor, and keep sanity after that. (In
+  redis-cli, you have to exit redis-cli and start it agein)
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/subscribe.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+  IRedis support keepalive and retry for connection issues.
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/retry.cast.svg' %}"
     ></object>
   </p>
 
