@@ -43,15 +43,15 @@
       </div>
       <ul class="nav nav-tabs">
         <li class="nav-item">
-          <a class="nav-link active" href="/">Welcome!</a>
+          <a class="nav-link {% block nav_welcome %}{% endblock %}" href="/">Welcome!</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/show">
+          <a class="nav-link {% block nav_show %}{% endblock %}" href="/show">
             Features</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/backers">
+          <a class="nav-link {% block nav_backers %}{% endblock %}" href="/backers">
             Backers</a
           >
         </li>
