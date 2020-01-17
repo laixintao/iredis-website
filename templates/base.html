@@ -18,6 +18,8 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="{% static '/static/css/font-awesome-5.12.0.css'%}" />
+    <link rel="stylesheet" href="{% static '/static/css/brands.min.css'%}" />
     <link rel="stylesheet" href="{% static '/static/css/main.css'%}" />
     <link
       rel="icon"
@@ -34,19 +36,38 @@
           src="{% static 'static/images/logos/LOGO-IRedis-1024x1024.png'%}"
           alt="IRedis Logo"
           class="iredis-image iredis-header"
-          style="height: 45px";
+          style="height: 45px"
+          ;
         />
         <h1 class="iredis-header">>_ Interactive Redis</h1>
       </div>
       <ul class="nav nav-tabs">
-        <li class="nav-item"><a class="nav-link active" href="/">Welcome!</a></li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/">Welcome!</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/show">
+            Features</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/backers">
+            Backers</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/laixintao/iredis/">
+            Github</a
+          >
+        </li>
       </ul>
 
-      <div>{% block body %}{% endblock %}</div>
       <!-- content row -->
+      <div>{% block body %}{% endblock %}</div>
     </div>
-    <!-- main container -->
+    <!-- Page Content -->
 
+    <div style="height: 100px"></div>
     <!-- Bootstrap core JavaScript -->
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
