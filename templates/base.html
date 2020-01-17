@@ -18,8 +18,6 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="{% static '/static/css/font-awesome-5.12.0.css'%}" />
-    <link rel="stylesheet" href="{% static '/static/css/brands.min.css'%}" />
     <link rel="stylesheet" href="{% static '/static/css/main.css'%}" />
     <link
       rel="icon"
@@ -33,7 +31,7 @@
     <div class="iredis-main container">
       <div class="clearfix">
         <img
-          src="{% static 'static/images/logos/LOGO-IRedis-1024x1024.png'%}"
+          src="{% static '/static/images/logos/LOGO-IRedis-1024x1024.png'%}"
           alt="IRedis Logo"
           class="iredis-image iredis-header"
           style="height: 45px"
@@ -43,15 +41,15 @@
       </div>
       <ul class="nav nav-tabs">
         <li class="nav-item">
-          <a class="nav-link {% block nav_welcome %}{% endblock %}" href="/">Welcome!</a>
+          <a class="nav-link {% block nav_welcome %}{% endblock %}" href="{% url '/index.html' %}">Welcome!</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% block nav_show %}{% endblock %}" href="/show">
+          <a class="nav-link {% block nav_show %}{% endblock %}" href="{% url '/show.html' %}">
             Features</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link {% block nav_backers %}{% endblock %}" href="/backers">
+          <a class="nav-link {% block nav_backers %}{% endblock %}" href="{% url '/backers.html' %}">
             Backers</a
           >
         </li>
