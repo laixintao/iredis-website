@@ -9,65 +9,50 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Bare - Start Bootstrap Template</title>
+    <title>IRedis</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="icon" 
-          type="image/png" 
-          href="{% static '/static/favicon.ico'%}" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="{% static '/static/css/main.css'%}" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{% static '/static/favicon.ico'%}"
+    />
   </head>
 
   <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
     <!-- Page Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h1 class="mt-5">A Bootstrap 4 Starter Template</h1>
-          <p class="lead">
-            Complete with pre-defined file paths and responsive navigation!
-          </p>
-          <ul class="list-unstyled">
-            <li>Bootstrap 4.3.1</li>
-            <li>jQuery 3.4.1</li>
-          </ul>
-        </div>
+    <div class="iredis-main container">
+      <div class="clearfix">
+        <img
+          src="{% static 'static/images/logos/LOGO-IRedis-1024x1024.png'%}"
+          alt="IRedis Logo"
+          class="iredis-image iredis-header"
+          style="height: 45px";
+        />
+        <h1 class="iredis-header">>_ Interactive Redis</h1>
       </div>
-    </div>
+      <ul class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link active" href="/">Welcome!</a></li>
+      </ul>
 
-    {% block body %}{% endblock %}
+      <div>{% block body %}{% endblock %}</div>
+      <!-- content row -->
+    </div>
+    <!-- main container -->
 
     <!-- Bootstrap core JavaScript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    {% block extra_script %} {% endblock %}
   </body>
 </html>
