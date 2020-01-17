@@ -6,5 +6,15 @@
 ## Develop
 
 ```
-$ hugo server -D
+$ cactus serve
 ```
+
+### Compiling casts
+
+```
+ls *.cast | xargs -I{} termtosvg render {}  {}.svg -D 2 -m40 -M300 -t gjm8
+```
+
+### Info
+
+- Bootstrap CDN: https://www.bootstrapcdn.com/

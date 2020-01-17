@@ -1,0 +1,21 @@
+body {
+  background: #f5f4ef;
+}
+.iredis-main {
+  margin-top: 10px;
+}
+
+.iredis-header {
+  height: 60px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.main-page {
+  background-color: #fff;
+}
+
+.home-info{
+  padding: 30px;
+}

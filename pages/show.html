@@ -1,0 +1,123 @@
+{% extends "base.html" %} {% block nav_show %} active {% endblock %} {% block body %}
+
+<div
+  class="container main-page tab-pane border border-top-0"
+  style="padding: 20px"
+>
+  <p>
+    Feel tired of manualy copy and paste the key's name for GET command? IRedis
+    has auto-completion for keys, hash members, etc, with a LRU strategy.
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/keys_completion.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+  IRedis will make response more readable for you.
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/render.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+    New to Redis? Ok, try --newbie mode. IRedis will acommpany with you on the
+    road to an expert!
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/newbie.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+    Have trouble remembering Redis' commands? IRedis will give you a hint on
+    bottom-bar.
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/bottom_bar.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+    Wait, you already have typed that command before! Let IRedis complete that
+    for you!
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/history.cast.svg' %}"
+    ></object>
+  </p>
+
+
+  <p>
+  Decode response for you!
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/decode.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+  Don't afraid to type the wrong command, we have syntax checker!
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/command_validation.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+  Stored some json in redis? Now you can use you favorite shell tools to parse Redis
+  Response, IRedis will using pipe response to shell process.
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/pipeline.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+  You can also use HELP command to check the manual of Redis commands.
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/help.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+  Rainbow prompt! It's useless, yes, but cool.
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/rainbow.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+  IRedis support Redis commands including pubsub/monitor, and keep sanity after that. (In
+  redis-cli, you have to exit redis-cli and start it agein)
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/subscribe.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
+  IRedis support keepalive and retry for connection issues.
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/retry.cast.svg' %}"
+    ></object>
+  </p>
+
+</div>
+{% endblock %}
