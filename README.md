@@ -1,6 +1,6 @@
 # iredis.io
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/54ada9aa-4be0-4552-b4a0-334d41dc008c/deploy-status)](https://app.netlify.com/sites/priceless-lewin-3eacdc/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7e921e84-12fd-47d1-a587-c8e3be6b4d56/deploy-status)](https://app.netlify.com/sites/iredis/deploys)
 
 
 ## Develop
