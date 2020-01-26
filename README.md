@@ -9,6 +9,13 @@
 $ cactus serve
 ```
 
+### Record casts
+
+Record using [termtosvg](https://github.com/nbedos/termtosvg). Terminal size 
+80x25 .
+
+Move cast file to ./static/casts/features
+
 ### Compiling casts
 
 ```
