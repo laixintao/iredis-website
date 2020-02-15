@@ -24,6 +24,18 @@
   </p>
 
   <p>
+  IRedis support Peek command, to check the key's type then automaticly call
+  get/lrange/sscan, etc, depends on types. You don't need to call type command
+  then type another command to get value. Peek will also display the key's 
+  length and memory usage.
+  </p>
+  <p>
+    <object
+      data="{% static '/static/casts/features/peek.cast.svg' %}"
+    ></object>
+  </p>
+
+  <p>
     New to Redis? Ok, try --newbie mode. IRedis will acommpany with you on the
     road to an expert!
   </p>
