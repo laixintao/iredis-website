@@ -55,7 +55,7 @@ class Footer extends React.Component {
           <div>
             <h5>More</h5>
             <a
-              class="github-button"
+              className="github-button"
               href="https://github.com/laixintao"
               aria-label="Follow @laixintao on GitHub"
             >

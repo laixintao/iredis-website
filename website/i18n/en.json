@@ -23,10 +23,7 @@
       }
     },
     "links": {
-      "Github": "Github",
-      "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "Github": "Github"
     },
     "categories": {
       "Docusaurus": "Docusaurus",
