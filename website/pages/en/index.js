@@ -84,7 +84,7 @@ class HomeSplash extends React.Component {
             <img
               alt="Docusaurus with Keytar"
               className="index-hero-logo"
-              src={`${siteConfig.baseUrl}img/demo.svg`}
+              src={`${siteConfig.baseUrl}img/casts/demo.svg`}
             />
             <div className="index-hero-header-text">
               Interactive Redis
@@ -113,10 +113,7 @@ class HomeSplash extends React.Component {
           </h1>
 
           <div className="index-ctas">
-            <a
-              className="button index-ctas-get-started-button"
-              href="#install"
-            >
+            <a className="button index-ctas-get-started-button" href="#install">
               Install NOW!
             </a>
             <span className="index-ctas-github-button">
@@ -154,7 +151,6 @@ class Index extends React.Component {
         />
       </Container>
     );
-
 
     const Demos = () => (
       <div>
