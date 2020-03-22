@@ -67,6 +67,19 @@ class Footer extends React.Component {
           </div>
         </section>
 
+        <section className="copyright">
+          This site is also open sourced on
+          {' '}
+          <a
+            className="github-button"
+            href="https://github.com/laixintao/iredis.io"
+            data-icon="octicon-star"
+            data-show-count="true"
+            aria-label="Star laixintao/iredis.io on GitHub"
+          >
+            laixintao/iredis.io
+          </a>
+        </section>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
